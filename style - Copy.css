@@ -1,0 +1,408 @@
+/* basic css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+  ul li{
+      list-style: none;
+  }
+  
+
+@font-face {
+    src: url("fonts/Montserrat-Regular.ttf");
+    font-family: Montserrat-regular;
+}
+
+@font-face {
+    src: url("fonts/PaytoneOne-Regular.ttf");
+    font-family: pay;
+}
+
+@font-face {
+    src: url("fonts/Righteous-Regular.ttf");
+    font-family: pay_2;
+}
+
+
+/* -font-family-rebrand: "Canela Deck Bold" */
+
+/* @font-face{
+    src:url("https://www.upwork.com/static/fonts/2.4.0/gotham-medium.woff2) format("woff2");
+    
+   }   /* font-weight:500;font-style:normal;font-display:swap}@font-face{font-family:Gotham SSm;src:url(https://www.upwork.com/static/fonts/2.4.0/gotham-regular.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:Gotham SSm;src:url(https://www.upwork.com/static/fonts/2.4.0/gotham-bold.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:Canela Deck Bold;src:url(https://www.upwork.com/static/fonts/2.4.1/canela-deck-bold.woff2) format("woff2"); */
+
+
+    body{
+        background-color:#f2f2f2e8 !important;
+    }
+
+    .nav-top-sec{
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 0px;
+    }
+
+    
+    .mid-right li{
+        display: inline-block;
+        position: relative;
+    }
+    a{
+        padding: 0px 40px 3px 0px;
+    }
+
+    .list
+ {
+     background-color: pink;
+     width: 300px;
+     /* margin-left: -20px; */
+     display:none ;
+
+     margin-top: 100px;
+     position: absolute;
+     
+
+ }
+ a:hover + .list {
+    display: block;
+    background-color: orange;
+ }
+
+ .main-logo img{
+  
+    height: 50px;
+    margin-top: 14px;
+   
+  margin-right: 32px !important;
+   
+}
+.box{
+    background-color: #fff !important;
+    /* padding-right: 120px !important; */
+    /* padding-right: 40px;*/
+   padding-left: 58px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   border: 1px solid #e0e0e0;
+   color: #656565;
+   border-radius: 2px;
+   margin-left: -27px;
+  
+   
+   
+}
+
+.box:hover{
+    /* box-shadow: 0px 0px 5px -1px inset; */
+    border:1px solid #008329;
+    box-shadow: inset 0 0 5px rgba(57, 73, 76,.4);
+  }
+  ::placeholder {
+    /* color: red; */
+    font-size: 14px;
+    
+  }
+
+  .arrow{
+    color:#37a000;
+    margin-top: 10px;
+    margin-left: 5px;
+    position: absolute;
+    font-size: 29px;
+    
+    
+}
+
+.search-icon{
+  font-size: medium;
+  color: #008329;
+  margin-top: 13px;
+  margin-left: -20px;
+  font-size: 22px;
+  position: absolute;
+  
+  
+}
+
+.button{
+    background-color: #37a000 !important;
+    color: white;
+    padding: 0px 16px 0px 15px;
+    border-color: transparent;
+  }
+  .button:hover{
+      background-color: #008329;
+      color:#fff;
+      transition: all .3s;
+      box-shadow: 0px 2px 10px 1px rgba(57, 73, 76,.4);
+  }
+
+  .nav2 li{
+      display: inline-block;
+  }
+
+  .banner img{
+      width: 1190px !important;
+      size: cover;
+  }
+  .mid-bannar{
+      background-image: url( https://www.upwork.com/static/assets/Brontes/4cf8581/img/lg.7b14a99.jpg);
+      width: auto;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+  }
+
+  .button-right{
+    background-color:#fff;
+    color:  #37a000 ;
+    padding: 0px 16px 0px 15px;
+    border-color: transparent;
+  }
+  .button-right:hover{
+      color: #008329;
+     
+      transition: all .3s;
+      box-shadow: 0px 2px 10px 1px rgba(57, 73, 76,.4);
+  }
+  /* .hero-contain{
+      position: relative;
+  } */
+.bannar h1{
+    color: #60dd26;
+    
+}
+.hero-tagg{
+    position: relative;
+}
+.hero-tag{
+    margin-top: 30px;
+    
+}
+
+
+
+.photo{
+    margin-left: 90px;
+}
+.photo a {
+    text-decoration: none;
+    color:black;
+    
+
+}
+
+.photo a:hover {
+    text-decoration: none;
+    color:black;
+    
+
+}
+
+.gallary1 a {
+    text-decoration: none;
+    color:black;
+    
+
+}
+
+.gallary1 a:hover {
+    text-decoration: none;
+    color:black;
+
+}
+.card{
+    box-shadow: 0px 0px 15px -8px;
+}
+
+.galllary-sec{
+    background-color:#ebf7ec;
+    /* height: 100px; */
+}
+.gallary-text a{
+    color: #37a000;
+    padding-bottom: 10px !important;
+
+}
+.gallary-text a:hover{
+    color: #008329;
+    padding-bottom: 10px !important;
+
+}
+
+.logo-item{
+    background-color: pink !important;
+    
+    margin-top: -55px;
+}
+
+.logo-sec{
+    height: 140px;
+    background-color: sandybrown;
+}
+.hire h6{
+    border-top: 2px solod green !important;
+    color: red;
+}
+.hire-sec{
+    border: 10px black;
+}
+
+.cc h4{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: var(--heading-weight-visitor);
+    color: red;
+}
+
+.img-responsive{
+    height: 200px !important;
+    width: 140px !important;
+}
+.servise h3{
+    font-size: 17px;
+    text-align: center;
+
+}
+.servise p{
+    font-size: 15px;
+    text-align: center;
+
+}
+    .hiw-item{
+    padding-left: 12px !important;
+    
+}
+.hiw-sec{
+    background-color: rgb(255, 255, 255);
+    height: 460px;
+}
+
+.basic-sec h2{
+    font-size: 40px;
+}
+    .basic{
+        margin-left:23px;
+        width: 260px;
+        /* border-bottom: 2px solid black !important; */
+    }
+    .basic1{
+        
+        width: 260px;
+        box-shadow: 0px 0px 10px -5px;
+        background-color: white;
+    }
+
+    .basic{
+        
+        width: 260px;
+        box-shadow: 0px 0px 10px -5px;
+        background-color: white;
+    }
+
+    .tick-icon{
+       color: #37a000;
+       position: absolute;
+       margin-left: 12px; 
+    }
+
+    .condition-sec p {
+        font-size: 15px;
+        /* padding: 0px 15px 0px 5px; */
+        margin-left: 0px;
+    }
+    .con2 p{
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .condition-sec{
+        width: 260px;
+        position: relative;
+    }
+
+    .condition-sec a{
+       color: #37a000;
+    }
+    .condition-sec a:hover{
+        color: #008329;
+     }
+
+
+     /* rating-sec */
+
+     .rating-sec{
+        
+         margin: auto;
+         text-align: center !important;
+         
+     }
+     .based{
+         color:#7f7f7f;
+        
+     }
+     .color-num{
+         color:#d5763d;
+     }
+     .logo-rat{
+         margin-top: -17px;
+         text-align: center !important;
+     }
+
+     /* rating-sec */
+
+     /* ceo-tab */
+     .ceo-tab-sec{
+         background-color: #494949;
+     }
+
+     .ceo-text-sec em{
+         color: gray;
+     }
+     .ceo-tab-sec small{
+         color: gray ;
+     }
+
+     .ceo-pic{
+         border-radius: 50%;
+     }
+
+
+
+     /* chart-of servise */
+
+     .list-btn{
+        box-shadow: 0px 0px 11px -5px;
+        border: none;
+     }   
+     .list-btn:hover{
+        box-shadow: 0px 0px 16px -6px;
+
+     }
+     .list-btn-sec span{
+         color:#37a000;
+         font-weight:500;
+     }
+     .list-btn-sec span:hover{
+        color:#008329;
+    }
+
+
+    .list-text a{
+        color: black;
+    }
+
+    .list-text a:hover{
+        color: #37a000;
+    }
+    
+    .show-more{
+        color: #37a000;
+    }
+
+    /* ------card of try */
+
+    .try-sec{
+        box-shadow: 0px 0px 10px 0px;
+    }

@@ -1,0 +1,245 @@
+
+ @media only screen and (max-width: 576px) {
+  .head_content { 
+             
+             margin-left:0px;
+              
+          }
+        }
+
+        
+@media only screen and (max-width: 410px) {
+    .img-logo { 
+     background-color: white;
+     text-align: center;
+        margin: auto;
+        margin-top:-30px;
+        padding-bottom: 20px;
+    }
+     }
+/* contain-head */ 
+
+ 
+      /* footer-list */
+
+      @media only screen and (max-width: 576px) {
+        .footer-list-arrow { 
+          margin-left: 0px !important;
+          position: relative;
+          
+        }
+          }
+         @media only screen and (max-width: 576px) {
+          .panel { 
+            display: none;
+          }
+           }
+           /*
+           @media only screen and (max-width: 576px) {
+            . { 
+              border-bottom: 1px solid  #2b5468;
+            } } */
+
+          
+          @media only screen and (max-width: 576px) {
+           .mob-icon { 
+           
+            margin-left: 0px;
+            font-size: 20px;
+            
+           }
+            }
+
+            @media only screen and (max-width: 576px) {
+              .down-icon { 
+               font-size: 30px;
+               position: absolute;
+        top:0px;
+        bottom: 0px;
+        right: 10px;
+               color: greenyellow;
+              }
+               }
+
+             @media only screen and (max-width: 576px) {
+              .down-icon2 { 
+               font-size: 30px;
+               margin-left: 140px !important;
+               color: greenyellow;
+              }
+               }
+
+               @media only screen and (max-width: 576px) {
+                .down-icon3 { 
+                 font-size: 30px;
+                 margin-left: 163px !important;
+                 color: greenyellow;
+                }
+                 }
+                         
+                 
+                 /* how it works sec */
+                 @media only screen and (max-width: 576px) {
+                  .how-num p { 
+                    text-align: left !important;
+                    font-size: 15px;
+                   margin-top:20px !important;
+                   margin-bottom:20px !important;
+                   
+                  }
+                   }
+                   @media only screen and (max-width: 576px) {
+                    .how-head h2 { 
+                      font-weight: normal;
+                     margin-top: 10px !important;
+                     padding-top: 0px !important;
+                     margin-bottom: 30px;
+                    }
+                     }
+
+                     /* @media only screen and (max-width: 576px) {
+                      .how-sec { 
+                        background-color: transparent;
+                      }
+                       } */
+
+                       /* basic */
+                       @media only screen and (max-width: 576px) {
+                        .basic-title h2 { 
+                          font-weight: normal;
+                          font-size: 25px;
+                          padding-top: 40px;
+                          padding-bottom: 30px;
+                         
+                         
+                        }
+                         }
+
+                         /* basic-sec */
+
+                         @media only screen and (max-width: 576px) {
+                          .basic1 { 
+                            margin-left: 23px;
+                            margin-bottom: 22px;
+                           margin-top: 25px;
+                           
+                          }
+                           }
+
+                           /* @media only screen and (max-width: 576px) {
+                            .btn-basic-phn button { 
+                             padding-left: 60px !important;
+                             font-size: 290px !important;
+                             
+                            }
+                             } */
+
+                             @media only screen and (max-width: 576px) {
+                              .basic { 
+                                
+                                margin-bottom: 22px;
+                               margin-top: 25px;
+                               
+                              }
+                               }
+    
+    
+
+                               .mob-sub-nav a{
+                                 
+                                 font-size: 15px;
+                                 color: gray;
+                                 border-top:none !important;
+                               }
+
+
+                               .mov-nav-icon{
+                                 padding-left: 30px;
+                                 position: absolute;
+                                 margin-left: 40px !important;
+                               }
+
+
+                               /* hero-bannar */
+
+                               @media only screen and (max-width: 576px) {
+                                .mid-bannar { 
+                                
+                                  background-image: url(https://www.upwork.com/static/assets/Brontes/8f0b5e9/img/xs.73d0b84.jpg);
+                                  width: 440px;
+                                  height:250px
+                                  /* background-repeat: no-repeat;
+                                  background-size: cover; */
+                                  /* display: none; */
+                                  
+                                 
+                                }
+                                 }
+
+                                 @media only screen and (max-width: 576px) {
+                                  .heroo-mob h1 { 
+                                    
+                                    font-size: 25px !important;
+                                    margin-top: 30px !important;
+                                   
+                                  }
+                                   }
+
+                                   
+                                   @media only screen and (max-width: 576px) {
+                                    .tile-title { 
+                                      
+                                      font-size: 13px !important;
+                                      margin-left: 25px !important;
+                                      margin-top: 10px !important;
+                                      
+                                     
+                                    }
+                                     }
+
+                                     @media only screen and (max-width: 576px) {
+                                      .bgg { 
+                                        
+                                        background-color: white;
+                                        margin-top: 10px;
+                                       
+                                      }
+                                       }
+
+                                       @media only screen and (max-width: 576px) {
+                                        .right-icon { 
+                                          
+                                          color:gray;
+                                          position: absolute;
+                                          right: 0px;
+                                          /* top: 0px;
+                                          bottom: 0px; */
+                                          font-size: 25px;
+                                         
+                                        }
+                                         }
+  
+
+                                         @media only screen and (max-width: 576px) {
+                                          .logos  { 
+                                            
+                                           
+                                            margin-top: 40px !important;
+                                            background-color: white;
+
+                                           
+                                          }
+                                           }
+                                           @media only screen and (max-width: 576px) {
+                                            .logos  { 
+                                              
+                                             
+                                              margin-top: 40px !important;
+                                              background-color: white;
+  
+                                             
+                                            }
+                                             }
+
+/* 
+                                 background-image: url(https://www.upwork.com/static/assets/Brontes/8f0b5e9/img/xs.73d0b84.jpg); */
